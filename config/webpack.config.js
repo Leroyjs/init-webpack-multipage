@@ -159,8 +159,10 @@ module.exports = {
     extensions: [".js", ".jsx", ".vue", ".sass", ".scss", ".css"],
     alias: {
       "~": srcPath,
-      "@": `${srcPath}/js`,
+      js: `${srcPath}/js`,
       scss: `${srcPath}/scss`,
+      components: `${srcPath}/scss/components`,
+      sections: `${srcPath}/scss/sections`,
     },
   },
   target: "web",
