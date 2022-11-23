@@ -1,7 +1,7 @@
 import "./index.hbs";
 import "./index.scss";
 /* import common js */
-import "@/common";
+import "js/common";
 /* import partials and lib */
 
 /* Your JS Code goes here */
